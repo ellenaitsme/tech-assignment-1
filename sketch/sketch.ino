@@ -8,9 +8,9 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid = "Boens1";
-const char* password = "anaLEX0916";
-const char* serverAddress = "http://192.168.0.109:5000/data"; 
+const char* ssid = "";
+const char* password = "";
+const char* serverAddress = "http://192.168.0.168:5000/data"; 
 
 void setup() {
   Serial.begin(115200);

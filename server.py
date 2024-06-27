@@ -22,4 +22,4 @@ def receive_data():
         return jsonify({'error': 'Invalid JSON'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True, host='192.168.0.109', port=5000)
+    app.run(debug=True, host='192.168.0.168', port=5000)
